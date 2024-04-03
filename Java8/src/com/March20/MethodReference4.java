@@ -31,7 +31,7 @@ class OP
 }
 public class MethodReference4 
 {
-	public static void main(String[] args) 
+	public static void main(String[]args) 
 	{
 		BiFunction<Integer , Integer , Integer>bb=new OP()::add;
 		int result=bb.apply(10, 20);
