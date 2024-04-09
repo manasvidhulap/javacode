@@ -1,6 +1,5 @@
 package com.eb.main;
 
-import java.awt.Menu;
 import java.util.Scanner;
 
 import com.eb.dao.menuuDao;
@@ -54,7 +53,6 @@ public class App
 						System.out.println("Enter menu name which u want to update:");
 						String menuname1=sc.next();
 						System.out.println("Enter Id:");
-						
 						int id=sc.nextInt();
 						menuu m1=new menuu();
 						m1.setMenuName(menuname1);
@@ -66,7 +64,6 @@ public class App
 							System.out.println("Enter Menu type which u want to update:");
 							String menutype1=sc.next();
 							System.out.println("Enter Id:");
-							
 							int id=sc.nextInt();
 							menuu m1=new menuu();
 							m1.setMenuType(menutype1);
@@ -103,6 +100,18 @@ public class App
 	}
 					
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
