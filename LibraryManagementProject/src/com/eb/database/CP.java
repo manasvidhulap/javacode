@@ -1,22 +1,23 @@
-package com.eb.databse;
+package com.eb.database;
 
 import java.sql.Connection;
+
 import java.sql.DriverManager;
 
 public class CP 
 {
-	static Connection con;
+	static Connection conn;
 	public static Connection createc()
 	{
 		try
 		{
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/transaction","root","root");
+			conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/library","root","root");
 		}
 		catch(Exception e)
 		{
 			e.printStackTrace();
 		}
-		return con;
+		return conn;
 	}
 }
