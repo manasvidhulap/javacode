@@ -10,9 +10,12 @@ import com.eb.pojo.Stock;
 import com.eb.pojo.StockDetail;
 
 public class App {
-	public static void main(String[] args) {
-	System.out.println("Hibernate one to one (XML mapping)");
+	public static void main(String[] args) 
+	{
+	     System.out.println("Hibernate one to one (XML mapping)");
+	     
 //	/The main runtime interface between a Java application and Hibernate
+	     
 	Session session = HibernateUtil.getSessionFactory().openSession();
 
 	session.beginTransaction();
